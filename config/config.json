@@ -2,22 +2,22 @@
   "development": {
     "username": "root",
     "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
+    "database": "burger_db",
+    "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
+    "username": "b204e93cac7161",
+    "password": "cad08e55",
+    "database": "heroku_fcbb3d9e4d63f93",
+    "host": "us-cdbr-iron-east-03.cleardb.net",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "b204e93cac7161",
+    "password": "cad08e55",
+    "database": "heroku_fcbb3d9e4d63f93",
+    "host": "us-cdbr-iron-east-03.cleardb.net",
     "dialect": "mysql"
   }
 }
