@@ -22,13 +22,13 @@ module.exports = function(sequelize, DataTypes) {
         len: [1]
       }
     },
-    devourded: {
+    devoured: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
       default: false
     },
     date:{
-    	type: DataTypes.DATETIME,
+    	type: DataTypes.DATE,
     	allowNull: false
     },
     customer_name: {
@@ -40,5 +40,9 @@ module.exports = function(sequelize, DataTypes) {
     }
   }
   );
+
   return Burger;
 };
+
+
+
